@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataModel.h"
+#import "fourthViewController.h"
+
+
 
 @interface TableViewController : UITableViewController
+
+@property (strong, nonatomic) DataModel *data;
 
 @end

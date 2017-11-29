@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.data = [[DataModel alloc] init];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -32,24 +34,41 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+
+    NSInteger numberOfRows;
+    
+    if (section ==00 ) {
+        numberOfRows = self.data.productarray.count;
+    }
+    
+    return numberOfRows;
+    
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"ProductCell" forIndexPath:indexPath];
     
     // Configure the cell...
     
+    if (indexPath.section ==0){
+        
+        Products *tempProducts = [self.data.productarray objectAtIndex:indexPath.row];
+        
+        cell.textLabel.text = tempProducts.productname;
+        cell.detailTextLabel.text = tempProducts.cafename;
+        
+        
+}
+    
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -85,14 +104,32 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+ 
+    if ([[segue identifier] isEqualToString:@"ShowProductDetails"]) {
+        
+        fourthviewcontroller *destinationViewController = [segue destinationViewController];
+        
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        
+        if (indexPath.section ==0) {
+            
+            Products *tempProduct = [self.data.productarray objectAtIndex:indexPath.row];
+            destinationViewController.products = tempProduct;
+        
+        }
+    }
+
 }
-*/
+
 
 @end
+    
+

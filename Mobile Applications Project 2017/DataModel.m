@@ -143,7 +143,7 @@
         
         self.productarray = [NSMutableArray array];
         Products *lemonadebaines = [[Products alloc] init];
-        lemonadebaines.productname = @"lemonade";
+        lemonadebaines.productname = @"Lemonade";
         lemonadebaines.cafename = @"The Baines Wing Cafe";
         lemonadebaines.producttype = @"Drink";
         lemonadebaines.price = 1.00;
@@ -192,7 +192,7 @@
         
         
         
-        //Adding Products to the Array
+                                                                            //Adding Products to the Array
         
         [self.productarray addObject:hamsandwichfuse]; //Index 0
         [self.productarray addObject:tunasaladfuse]; //Index 1

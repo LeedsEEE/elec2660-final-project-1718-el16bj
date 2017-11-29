@@ -10,6 +10,7 @@
 		86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86373CE81FCD8F7D00FE2457 /* images.jpeg */; };
 		86373CEF1FCD9C6700FE2457 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86373CEE1FCD9C6700FE2457 /* secondViewController.m */; };
 		86373CF51FCD9CA500FE2457 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86373CF41FCD9CA500FE2457 /* thirdViewController.m */; };
+		8662312D1FCF2CE0007A81BD /* fourthviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8662312C1FCF2CE0007A81BD /* fourthviewcontroller.m */; };
 		86C83B781FCEE96900686533 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B771FCEE96900686533 /* Products.m */; };
 		86C83B7B1FCEE9D800686533 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B7A1FCEE9D800686533 /* DataModel.m */; };
 		86C83B7E1FCEF22000686533 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B7D1FCEF22000686533 /* TableViewController.m */; };
@@ -46,6 +47,8 @@
 		86373CEE1FCD9C6700FE2457 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 		86373CF31FCD9CA500FE2457 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thirdViewController.h; path = ../thirdViewController.h; sourceTree = "<group>"; };
 		86373CF41FCD9CA500FE2457 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = thirdViewController.m; path = ../thirdViewController.m; sourceTree = "<group>"; };
+		8662312B1FCF2CE0007A81BD /* fourthviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourthviewcontroller.h; sourceTree = "<group>"; };
+		8662312C1FCF2CE0007A81BD /* fourthviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourthviewcontroller.m; sourceTree = "<group>"; };
 		86C83B761FCEE96900686533 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
 		86C83B771FCEE96900686533 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
 		86C83B791FCEE9D800686533 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				86373CEE1FCD9C6700FE2457 /* secondViewController.m */,
 				86373CF31FCD9CA500FE2457 /* thirdViewController.h */,
 				86373CF41FCD9CA500FE2457 /* thirdViewController.m */,
+				8662312B1FCF2CE0007A81BD /* fourthviewcontroller.h */,
+				8662312C1FCF2CE0007A81BD /* fourthviewcontroller.m */,
 				86C83B7C1FCEF22000686533 /* TableViewController.h */,
 				86C83B7D1FCEF22000686533 /* TableViewController.m */,
 				86C83B761FCEE96900686533 /* Products.h */,
@@ -310,6 +315,7 @@
 				86EC4EDC1FC450AD00460EAB /* main.m in Sources */,
 				86373CF51FCD9CA500FE2457 /* thirdViewController.m in Sources */,
 				86C83B7E1FCEF22000686533 /* TableViewController.m in Sources */,
+				8662312D1FCF2CE0007A81BD /* fourthviewcontroller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
