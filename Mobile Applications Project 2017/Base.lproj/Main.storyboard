@@ -146,16 +146,19 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQC-JP-Btc">
                                 <connections>
                                     <action selector="food:" destination="IGn-EL-aDm" eventType="touchUpInside" id="4az-Bl-3Vn"/>
+                                    <segue destination="s7h-c3-YKM" kind="show" id="xJV-eI-flh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvR-aR-5WJ">
                                 <connections>
                                     <action selector="drink:" destination="IGn-EL-aDm" eventType="touchUpInside" id="b1C-S0-2Wm"/>
+                                    <segue destination="s7h-c3-YKM" kind="show" id="MKP-AD-QnB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qTK-b0-HlZ">
                                 <connections>
                                     <action selector="both:" destination="IGn-EL-aDm" eventType="touchUpInside" id="6ft-vU-uLq"/>
+                                    <segue destination="s7h-c3-YKM" kind="show" id="ufa-jq-Ake"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -203,8 +206,60 @@
             </objects>
             <point key="canvasLocation" x="1597.5999999999999" y="123.68815592203899"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="dos-it-XiQ">
+            <objects>
+                <tableViewController id="s7h-c3-YKM" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hlu-XY-g5Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="i8y-Hs-W6G">
+                                <rect key="frame" x="0.0" y="92" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i8y-Hs-W6G" id="CPP-3P-OlF">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="kc1-go-V80" kind="show" id="BZq-Ku-uMu"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="s7h-c3-YKM" id="xEk-1t-9qR"/>
+                            <outlet property="delegate" destination="s7h-c3-YKM" id="Qej-3o-2rM"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ifs-2T-xza" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2471" y="124"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="roD-oj-dmC">
+            <objects>
+                <viewController id="kc1-go-V80" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D0w-Bk-5dD"/>
+                        <viewControllerLayoutGuide type="bottom" id="mnz-vD-z1H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SHi-ZV-KR3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d3l-aA-nNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3310" y="124"/>
+        </scene>
     </scenes>
     <resources>
         <image name="images.jpeg" width="225" height="225"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="xJV-eI-flh"/>
+    </inferredMetricsTieBreakers>
 </document>
