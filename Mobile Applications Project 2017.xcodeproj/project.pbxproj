@@ -12,6 +12,7 @@
 		86373CF51FCD9CA500FE2457 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86373CF41FCD9CA500FE2457 /* thirdViewController.m */; };
 		86C83B781FCEE96900686533 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B771FCEE96900686533 /* Products.m */; };
 		86C83B7B1FCEE9D800686533 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B7A1FCEE9D800686533 /* DataModel.m */; };
+		86C83B7E1FCEF22000686533 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B7D1FCEF22000686533 /* TableViewController.m */; };
 		86EC4EDC1FC450AD00460EAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EC4EDB1FC450AD00460EAB /* main.m */; };
 		86EC4EDF1FC450AD00460EAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EC4EDE1FC450AD00460EAB /* AppDelegate.m */; };
 		86EC4EE21FC450AD00460EAB /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EC4EE11FC450AD00460EAB /* firstViewController.m */; };
@@ -49,6 +50,8 @@
 		86C83B771FCEE96900686533 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
 		86C83B791FCEE9D800686533 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		86C83B7A1FCEE9D800686533 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		86C83B7C1FCEF22000686533 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		86C83B7D1FCEF22000686533 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		86EC4ED71FC450AD00460EAB /* Mobile Applications Project 2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Applications Project 2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EC4EDB1FC450AD00460EAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86EC4EDD1FC450AD00460EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				86373CEE1FCD9C6700FE2457 /* secondViewController.m */,
 				86373CF31FCD9CA500FE2457 /* thirdViewController.h */,
 				86373CF41FCD9CA500FE2457 /* thirdViewController.m */,
+				86C83B7C1FCEF22000686533 /* TableViewController.h */,
+				86C83B7D1FCEF22000686533 /* TableViewController.m */,
 				86C83B761FCEE96900686533 /* Products.h */,
 				86C83B771FCEE96900686533 /* Products.m */,
 				86C83B791FCEE9D800686533 /* DataModel.h */,
@@ -304,6 +309,7 @@
 				86C83B7B1FCEE9D800686533 /* DataModel.m in Sources */,
 				86EC4EDC1FC450AD00460EAB /* main.m in Sources */,
 				86373CF51FCD9CA500FE2457 /* thirdViewController.m in Sources */,
+				86C83B7E1FCEF22000686533 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

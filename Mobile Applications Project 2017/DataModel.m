@@ -155,16 +155,70 @@
         americanobaines.producttype = @"Food";
         americanobaines.price = 0.80;
         
+        self.productarray = [NSMutableArray array];                      //The Business School Products
+        Products *cheesesandwichbusiness = [[Products alloc] init];
+        cheesesandwichbusiness.productname = @"Cheese Sandwich";
+        cheesesandwichbusiness.cafename = @"The Business School";
+        cheesesandwichbusiness.producttype = @"Food";
+        cheesesandwichbusiness.price = 1.00;
+        
+        self.productarray = [NSMutableArray array];
+        Products *potnoodlebusiness = [[Products alloc] init];
+        potnoodlebusiness.productname = @"Pot Noodle";
+        potnoodlebusiness.cafename = @"The Business School";
+        potnoodlebusiness.producttype = @"Food";
+        potnoodlebusiness.price = 0.90;
+        
+        self.productarray = [NSMutableArray array];
+        Products *gardensaladbusiness = [[Products alloc] init];
+        gardensaladbusiness.productname = @"Garden Salad";
+        gardensaladbusiness.cafename = @"The Business School";
+        gardensaladbusiness.producttype = @"Food";
+        gardensaladbusiness.price = 0.70;
+
+        self.productarray = [NSMutableArray array];
+        Products *dietcokebusiness = [[Products alloc] init];
+        dietcokebusiness.productname = @"Diet Coke";
+        dietcokebusiness.cafename = @"The Business School";
+        dietcokebusiness.producttype = @"Drink";
+        dietcokebusiness.price = 0.50;
+
+        self.productarray = [NSMutableArray array];
+        Products *fantabusiness = [[Products alloc] init];
+        fantabusiness.productname = @"Fanta";
+        fantabusiness.cafename = @"The Business School";
+        fantabusiness.producttype = @"Drink";
+        fantabusiness.price = 0.50;
         
         
         
+        //Adding Products to the Array
         
-        
-        
-        
-        
-        
-        
+        [self.productarray addObject:hamsandwichfuse]; //Index 0
+        [self.productarray addObject:tunasaladfuse]; //Index 1
+        [self.productarray addObject:baconsandwichfuse]; //Index 2
+        [self.productarray addObject:waterfuse]; //Index 3
+        [self.productarray addObject:hotchocolatefuse]; //Index 4
+        [self.productarray addObject:prawnmayosandwichedit]; //Index 5
+        [self.productarray addObject:meatfeastsandwichedit]; //Index 6
+        [self.productarray addObject:chickensaladedit]; //Index 7
+        [self.productarray addObject:cocacolaedit]; //Index 8
+        [self.productarray addObject:cafelatteedit]; //Index 9
+        [self.productarray addObject:mushroomsoupparkinson]; //Index 10
+        [self.productarray addObject:prawnrocketsandwichparkinson]; //Index 11
+        [self.productarray addObject:bltsandwichparkinson]; //Index 12
+        [self.productarray addObject:sanpellegrinoparkinson]; //Index 13
+        [self.productarray addObject:greenteaparkinson]; //Index 14
+        [self.productarray addObject:tikkasoupbaines]; //Index 15
+        [self.productarray addObject:beefsandwichbaines]; //Index 16
+        [self.productarray addObject:choccakebaines]; //Index 17
+        [self.productarray addObject:lemonadebaines]; //Index 18
+        [self.productarray addObject:americanobaines]; //Index 19
+        [self.productarray addObject:cheesesandwichbusiness]; //Index 20
+        [self.productarray addObject:potnoodlebusiness]; //Index 21
+        [self.productarray addObject:gardensaladbusiness]; //Index 22
+        [self.productarray addObject:dietcokebusiness]; //Index 23
+        [self.productarray addObject:fantabusiness]; //Index 24
         
     }
     return self;
