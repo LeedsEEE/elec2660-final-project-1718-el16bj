@@ -10,6 +10,9 @@
 
 @interface secondViewController : UIViewController <UITextFieldDelegate>
 
+- (IBAction)getAmmount:(UITextField *)sender;
+
+
 
 
 @end
