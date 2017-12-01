@@ -1,18 +1,18 @@
 //
-//  secondViewController.m
+//  ViewControllerSixe.m
 //  Mobile Applications Project 2017
 //
-//  Created by Ben Johnson [el16bj] on 28/11/2017.
+//  Created by Ben Johnson [el16bj] on 01/12/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "secondViewController.h"
+#import "ViewControllerSix.h"
 
-@interface secondViewController ()
+@interface ViewControllerSix ()
 
 @end
 
-@implementation secondViewController
+@implementation ViewControllerSix
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,8 +23,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 /*
 #pragma mark - Navigation

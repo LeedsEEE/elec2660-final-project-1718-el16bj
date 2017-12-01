@@ -16,4 +16,6 @@
 
 @property (strong, nonatomic) DataModel *data;
 
+
+
 @end

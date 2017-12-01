@@ -1,25 +1,24 @@
 //
-//  TableViewController.m
+//  TableViewControllerOne.m
 //  Mobile Applications Project 2017
 //
-//  Created by Ben Johnson [el16bj] on 29/11/2017.
+//  Created by Ben Johnson [el16bj] on 01/12/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "TableViewController.h"
+#import "TableViewControllerOne.h"
 
-@interface TableViewController ()
-
+@interface TableViewControllerOne ()
 
 @end
 
-@implementation TableViewController
+@implementation TableViewControllerOne
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.data = [[DataModel alloc] init];
-
+    self.data = [[DataModelOne alloc] init];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -40,7 +39,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-
+    
     NSInteger numberOfRows;
     
     if (section ==00 ) {
@@ -48,12 +47,13 @@
     }
     
     return numberOfRows;
+
     
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"ProductCell" forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"ProductCellOne" forIndexPath:indexPath];
     
     // Configure the cell...
     
@@ -63,9 +63,7 @@
         
         cell.textLabel.text = tempProducts.productname;
         cell.detailTextLabel.text = tempProducts.cafename;
-        
-        
-}
+    }
     
     return cell;
 }
@@ -113,10 +111,10 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     
- 
+    
     if ([[segue identifier] isEqualToString:@"ShowProductDetails"]) {
         
-        fourthviewcontroller *destinationViewController = [segue destinationViewController];
+        ViewControllerFive *destinationViewController = [segue destinationViewController];
         
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         
@@ -124,13 +122,13 @@
             
             Products *tempProduct = [self.data.productarray objectAtIndex:indexPath.row];
             destinationViewController.products = tempProduct;
-        
+    
+    
         }
+        
     }
-
+    
 }
 
-
-@end
     
-
+@end
