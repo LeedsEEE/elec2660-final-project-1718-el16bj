@@ -1,27 +1,30 @@
 //
-//  ViewControllerSixe.m
+//  ViewControllerSeven.m
 //  Mobile Applications Project 2017
 //
 //  Created by Ben Johnson [el16bj] on 01/12/2017.
 //  Copyright © 2017 University of Leeds. All rights reserved.
 //
 
-#import "ViewControllerSix.h"
+#import "ViewControllerSeven.h"
 
-@interface ViewControllerSix ()
+@interface ViewControllerSeven ()
 
 @end
 
-@implementation ViewControllerSix
+@implementation ViewControllerSeven
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.productnamelabel.text = self.products.productname;
-    self.cafenamelabel.text = self.products.cafename;
-    self.productypelabel.text = self.products.producttype;
-    self.pricelabel.text = [NSString stringWithFormat:@"£%.2f", self.products.price];
+    self.cafenamelabel.text = self.cafe.cafename;
+    self.cafelocationlabel.text = self.cafe.cafelocation;
+    self.openingtimeslabel.text = self.cafe.openingtimes;
+
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

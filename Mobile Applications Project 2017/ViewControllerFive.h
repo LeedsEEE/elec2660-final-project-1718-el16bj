@@ -12,10 +12,10 @@
 
 @interface ViewControllerFive : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *productnamelabel;
-@property (weak, nonatomic) IBOutlet UILabel *cafenamelabel;
-@property (weak, nonatomic) IBOutlet UILabel *productypelabel;
-@property (weak, nonatomic) IBOutlet UILabel *pricelabel;
+@property (weak, nonatomic) IBOutlet UILabel *ProductnameLabel;
+@property (weak, nonatomic) IBOutlet UILabel *CafeNameLabel1;
+@property (weak, nonatomic) IBOutlet UILabel *ProductTypeLabel1;
+@property (weak, nonatomic) IBOutlet UILabel *PriceLabel1;
 
 @property (strong, nonatomic) Products *products;
 
