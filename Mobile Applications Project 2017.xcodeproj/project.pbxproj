@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86220CE61FD5ABB10003A044 /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86220CE51FD5ABB10003A044 /* Icon.jpg */; };
+		86220CEA1FD5AD180003A044 /* Food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86220CE91FD5AD180003A044 /* Food.jpg */; };
+		86220CEE1FD5AE210003A044 /* Both.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86220CED1FD5AE210003A044 /* Both.jpg */; };
+		86220CF01FD5AE7D0003A044 /* Drink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86220CEF1FD5AE7D0003A044 /* Drink.jpg */; };
 		86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86373CE81FCD8F7D00FE2457 /* images.jpeg */; };
 		86373CF51FCD9CA500FE2457 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86373CF41FCD9CA500FE2457 /* thirdViewController.m */; };
 		865AEFED1FD1B86700904035 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFEC1FD1B86700904035 /* TableViewControllerThree.m */; };
@@ -14,6 +18,7 @@
 		865AEFF61FD1B92C00904035 /* DataModelThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFF51FD1B92C00904035 /* DataModelThree.m */; };
 		865AEFF91FD1B96B00904035 /* Cafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFF81FD1B96B00904035 /* Cafe.m */; };
 		8662312D1FCF2CE0007A81BD /* fourthviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8662312C1FCF2CE0007A81BD /* fourthviewcontroller.m */; };
+		868C4F781FD5917A00A86A18 /* ScranPus Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 868C4F771FD5917A00A86A18 /* ScranPus Logo.jpg */; };
 		86C83B781FCEE96900686533 /* Products.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B771FCEE96900686533 /* Products.m */; };
 		86C83B7B1FCEE9D800686533 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B7A1FCEE9D800686533 /* DataModel.m */; };
 		86C83B7E1FCEF22000686533 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C83B7D1FCEF22000686533 /* TableViewController.m */; };
@@ -51,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86220CE51FD5ABB10003A044 /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		86220CE91FD5AD180003A044 /* Food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food.jpg; sourceTree = "<group>"; };
+		86220CED1FD5AE210003A044 /* Both.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Both.jpg; sourceTree = "<group>"; };
+		86220CEF1FD5AE7D0003A044 /* Drink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drink.jpg; sourceTree = "<group>"; };
 		86373CE81FCD8F7D00FE2457 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		86373CF31FCD9CA500FE2457 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thirdViewController.h; path = ../thirdViewController.h; sourceTree = "<group>"; };
 		86373CF41FCD9CA500FE2457 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = thirdViewController.m; path = ../thirdViewController.m; sourceTree = "<group>"; };
@@ -64,6 +73,7 @@
 		865AEFF81FD1B96B00904035 /* Cafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cafe.m; sourceTree = "<group>"; };
 		8662312B1FCF2CE0007A81BD /* fourthviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourthviewcontroller.h; sourceTree = "<group>"; };
 		8662312C1FCF2CE0007A81BD /* fourthviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourthviewcontroller.m; sourceTree = "<group>"; };
+		868C4F771FD5917A00A86A18 /* ScranPus Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ScranPus Logo.jpg"; sourceTree = "<group>"; };
 		86C83B761FCEE96900686533 /* Products.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Products.h; sourceTree = "<group>"; };
 		86C83B771FCEE96900686533 /* Products.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Products.m; sourceTree = "<group>"; };
 		86C83B791FCEE9D800686533 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
@@ -186,6 +196,11 @@
 				86EC4EE61FC450AD00460EAB /* Assets.xcassets */,
 				86EC4EE81FC450AD00460EAB /* LaunchScreen.storyboard */,
 				86373CE81FCD8F7D00FE2457 /* images.jpeg */,
+				86220CE91FD5AD180003A044 /* Food.jpg */,
+				86220CED1FD5AE210003A044 /* Both.jpg */,
+				86220CEF1FD5AE7D0003A044 /* Drink.jpg */,
+				86220CE51FD5ABB10003A044 /* Icon.jpg */,
+				868C4F771FD5917A00A86A18 /* ScranPus Logo.jpg */,
 				86EC4EEB1FC450AD00460EAB /* Info.plist */,
 				86EC4EDA1FC450AD00460EAB /* Supporting Files */,
 			);
@@ -325,6 +340,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				86EC4EEA1FC450AD00460EAB /* LaunchScreen.storyboard in Resources */,
+				86220CEE1FD5AE210003A044 /* Both.jpg in Resources */,
+				86220CEA1FD5AD180003A044 /* Food.jpg in Resources */,
+				868C4F781FD5917A00A86A18 /* ScranPus Logo.jpg in Resources */,
+				86220CE61FD5ABB10003A044 /* Icon.jpg in Resources */,
+				86220CF01FD5AE7D0003A044 /* Drink.jpg in Resources */,
 				86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */,
 				86EC4EE71FC450AD00460EAB /* Assets.xcassets in Resources */,
 				86EC4EE51FC450AD00460EAB /* Main.storyboard in Resources */,
