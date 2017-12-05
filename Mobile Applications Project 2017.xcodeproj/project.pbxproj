@@ -11,6 +11,17 @@
 		86220CEA1FD5AD180003A044 /* Food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86220CE91FD5AD180003A044 /* Food.jpg */; };
 		86220CEE1FD5AE210003A044 /* Both.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86220CED1FD5AE210003A044 /* Both.jpg */; };
 		86220CF01FD5AE7D0003A044 /* Drink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86220CEF1FD5AE7D0003A044 /* Drink.jpg */; };
+		8630D5DE1FD6CBB90070306F /* ROOF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5DD1FD6CBB90070306F /* ROOF.jpg */; };
+		8630D5E01FD6CBBD0070306F /* Base.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5DF1FD6CBBD0070306F /* Base.jpg */; };
+		8630D5E21FD6D0580070306F /* Find your scran.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5E11FD6D0580070306F /* Find your scran.jpg */; };
+		8630D5E41FD6D34B0070306F /* LOGO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5E31FD6D34B0070306F /* LOGO.jpg */; };
+		8630D5E61FD6D4B70070306F /* What you feelin'?.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5E51FD6D4B70070306F /* What you feelin'?.jpg */; };
+		8630D5E81FD6D62E0070306F /* LOGOO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5E71FD6D62E0070306F /* LOGOO.jpg */; };
+		8630D5EA1FD6D9C10070306F /* Screen Shot 2017-12-05 at 13.41.31.png in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5E91FD6D9C10070306F /* Screen Shot 2017-12-05 at 13.41.31.png */; };
+		8630D5EC1FD6D9FA0070306F /* Screen Shot 2017-12-05 at 13.41.31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5EB1FD6D9FA0070306F /* Screen Shot 2017-12-05 at 13.41.31.jpg */; };
+		8630D5EE1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5ED1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg */; };
+		8630D5F01FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5EF1FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg */; };
+		8630D5F21FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5F11FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg */; };
 		86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86373CE81FCD8F7D00FE2457 /* images.jpeg */; };
 		86373CF51FCD9CA500FE2457 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86373CF41FCD9CA500FE2457 /* thirdViewController.m */; };
 		865AEFED1FD1B86700904035 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFEC1FD1B86700904035 /* TableViewControllerThree.m */; };
@@ -60,6 +71,17 @@
 		86220CE91FD5AD180003A044 /* Food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food.jpg; sourceTree = "<group>"; };
 		86220CED1FD5AE210003A044 /* Both.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Both.jpg; sourceTree = "<group>"; };
 		86220CEF1FD5AE7D0003A044 /* Drink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drink.jpg; sourceTree = "<group>"; };
+		8630D5DD1FD6CBB90070306F /* ROOF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ROOF.jpg; sourceTree = "<group>"; };
+		8630D5DF1FD6CBBD0070306F /* Base.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Base.jpg; sourceTree = "<group>"; };
+		8630D5E11FD6D0580070306F /* Find your scran.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Find your scran.jpg"; sourceTree = "<group>"; };
+		8630D5E31FD6D34B0070306F /* LOGO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LOGO.jpg; sourceTree = "<group>"; };
+		8630D5E51FD6D4B70070306F /* What you feelin'?.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "What you feelin'?.jpg"; sourceTree = "<group>"; };
+		8630D5E71FD6D62E0070306F /* LOGOO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LOGOO.jpg; sourceTree = "<group>"; };
+		8630D5E91FD6D9C10070306F /* Screen Shot 2017-12-05 at 13.41.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-05 at 13.41.31.png"; sourceTree = "<group>"; };
+		8630D5EB1FD6D9FA0070306F /* Screen Shot 2017-12-05 at 13.41.31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen Shot 2017-12-05 at 13.41.31.jpg"; sourceTree = "<group>"; };
+		8630D5ED1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen Shot 2017-12-05 at 13.45.52.jpg"; sourceTree = "<group>"; };
+		8630D5EF1FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen Shot 2017-12-05 at 13.45.40.jpg"; sourceTree = "<group>"; };
+		8630D5F11FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen Shot 2017-12-05 at 13.52.45.jpg"; sourceTree = "<group>"; };
 		86373CE81FCD8F7D00FE2457 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		86373CF31FCD9CA500FE2457 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thirdViewController.h; path = ../thirdViewController.h; sourceTree = "<group>"; };
 		86373CF41FCD9CA500FE2457 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = thirdViewController.m; path = ../thirdViewController.m; sourceTree = "<group>"; };
@@ -196,9 +218,20 @@
 				86EC4EE61FC450AD00460EAB /* Assets.xcassets */,
 				86EC4EE81FC450AD00460EAB /* LaunchScreen.storyboard */,
 				86373CE81FCD8F7D00FE2457 /* images.jpeg */,
+				8630D5ED1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg */,
+				8630D5EF1FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg */,
+				8630D5E51FD6D4B70070306F /* What you feelin'?.jpg */,
+				8630D5EB1FD6D9FA0070306F /* Screen Shot 2017-12-05 at 13.41.31.jpg */,
+				8630D5E91FD6D9C10070306F /* Screen Shot 2017-12-05 at 13.41.31.png */,
+				8630D5F11FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg */,
+				8630D5E31FD6D34B0070306F /* LOGO.jpg */,
+				8630D5E71FD6D62E0070306F /* LOGOO.jpg */,
+				8630D5E11FD6D0580070306F /* Find your scran.jpg */,
 				86220CE91FD5AD180003A044 /* Food.jpg */,
 				86220CED1FD5AE210003A044 /* Both.jpg */,
 				86220CEF1FD5AE7D0003A044 /* Drink.jpg */,
+				8630D5DF1FD6CBBD0070306F /* Base.jpg */,
+				8630D5DD1FD6CBB90070306F /* ROOF.jpg */,
 				86220CE51FD5ABB10003A044 /* Icon.jpg */,
 				868C4F771FD5917A00A86A18 /* ScranPus Logo.jpg */,
 				86EC4EEB1FC450AD00460EAB /* Info.plist */,
@@ -339,13 +372,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8630D5EC1FD6D9FA0070306F /* Screen Shot 2017-12-05 at 13.41.31.jpg in Resources */,
 				86EC4EEA1FC450AD00460EAB /* LaunchScreen.storyboard in Resources */,
+				8630D5EA1FD6D9C10070306F /* Screen Shot 2017-12-05 at 13.41.31.png in Resources */,
 				86220CEE1FD5AE210003A044 /* Both.jpg in Resources */,
+				8630D5F21FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg in Resources */,
+				8630D5E61FD6D4B70070306F /* What you feelin'?.jpg in Resources */,
 				86220CEA1FD5AD180003A044 /* Food.jpg in Resources */,
+				8630D5E41FD6D34B0070306F /* LOGO.jpg in Resources */,
 				868C4F781FD5917A00A86A18 /* ScranPus Logo.jpg in Resources */,
+				8630D5E81FD6D62E0070306F /* LOGOO.jpg in Resources */,
 				86220CE61FD5ABB10003A044 /* Icon.jpg in Resources */,
+				8630D5E21FD6D0580070306F /* Find your scran.jpg in Resources */,
 				86220CF01FD5AE7D0003A044 /* Drink.jpg in Resources */,
 				86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */,
+				8630D5F01FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg in Resources */,
+				8630D5DE1FD6CBB90070306F /* ROOF.jpg in Resources */,
+				8630D5EE1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg in Resources */,
+				8630D5E01FD6CBBD0070306F /* Base.jpg in Resources */,
 				86EC4EE71FC450AD00460EAB /* Assets.xcassets in Resources */,
 				86EC4EE51FC450AD00460EAB /* Main.storyboard in Resources */,
 			);
