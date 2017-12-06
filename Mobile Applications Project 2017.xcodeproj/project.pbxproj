@@ -24,6 +24,9 @@
 		8630D5F21FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5F11FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg */; };
 		86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86373CE81FCD8F7D00FE2457 /* images.jpeg */; };
 		86373CF51FCD9CA500FE2457 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86373CF41FCD9CA500FE2457 /* thirdViewController.m */; };
+		865290A41FD85BE200116089 /* Viewc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 865290A31FD85BE100116089 /* Viewc.jpg */; };
+		865290A61FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */; };
+		865290A81FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */; };
 		865AEFED1FD1B86700904035 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFEC1FD1B86700904035 /* TableViewControllerThree.m */; };
 		865AEFF01FD1B88B00904035 /* ViewControllerSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFEF1FD1B88B00904035 /* ViewControllerSeven.m */; };
 		865AEFF61FD1B92C00904035 /* DataModelThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFF51FD1B92C00904035 /* DataModelThree.m */; };
@@ -85,6 +88,9 @@
 		86373CE81FCD8F7D00FE2457 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		86373CF31FCD9CA500FE2457 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thirdViewController.h; path = ../thirdViewController.h; sourceTree = "<group>"; };
 		86373CF41FCD9CA500FE2457 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = thirdViewController.m; path = ../thirdViewController.m; sourceTree = "<group>"; };
+		865290A31FD85BE100116089 /* Viewc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viewc.jpg; sourceTree = "<group>"; };
+		865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 17.11.02.png"; sourceTree = "<group>"; };
+		865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 17.42.53.png"; sourceTree = "<group>"; };
 		865AEFEB1FD1B86700904035 /* TableViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerThree.h; sourceTree = "<group>"; };
 		865AEFEC1FD1B86700904035 /* TableViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerThree.m; sourceTree = "<group>"; };
 		865AEFEE1FD1B88B00904035 /* ViewControllerSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSeven.h; sourceTree = "<group>"; };
@@ -217,6 +223,9 @@
 				865AEFF81FD1B96B00904035 /* Cafe.m */,
 				86EC4EE61FC450AD00460EAB /* Assets.xcassets */,
 				86EC4EE81FC450AD00460EAB /* LaunchScreen.storyboard */,
+				865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */,
+				865290A31FD85BE100116089 /* Viewc.jpg */,
+				865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */,
 				86373CE81FCD8F7D00FE2457 /* images.jpeg */,
 				8630D5ED1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg */,
 				8630D5EF1FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg */,
@@ -383,11 +392,14 @@
 				868C4F781FD5917A00A86A18 /* ScranPus Logo.jpg in Resources */,
 				8630D5E81FD6D62E0070306F /* LOGOO.jpg in Resources */,
 				86220CE61FD5ABB10003A044 /* Icon.jpg in Resources */,
+				865290A41FD85BE200116089 /* Viewc.jpg in Resources */,
 				8630D5E21FD6D0580070306F /* Find your scran.jpg in Resources */,
 				86220CF01FD5AE7D0003A044 /* Drink.jpg in Resources */,
 				86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */,
+				865290A61FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png in Resources */,
 				8630D5F01FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg in Resources */,
 				8630D5DE1FD6CBB90070306F /* ROOF.jpg in Resources */,
+				865290A81FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png in Resources */,
 				8630D5EE1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg in Resources */,
 				8630D5E01FD6CBBD0070306F /* Base.jpg in Resources */,
 				86EC4EE71FC450AD00460EAB /* Assets.xcassets in Resources */,
