@@ -27,6 +27,8 @@
 		865290A41FD85BE200116089 /* Viewc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 865290A31FD85BE100116089 /* Viewc.jpg */; };
 		865290A61FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */; };
 		865290A81FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */; };
+		865290AA1FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A91FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png */; };
+		865290AC1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290AB1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png */; };
 		865AEFED1FD1B86700904035 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFEC1FD1B86700904035 /* TableViewControllerThree.m */; };
 		865AEFF01FD1B88B00904035 /* ViewControllerSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFEF1FD1B88B00904035 /* ViewControllerSeven.m */; };
 		865AEFF61FD1B92C00904035 /* DataModelThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFF51FD1B92C00904035 /* DataModelThree.m */; };
@@ -91,6 +93,8 @@
 		865290A31FD85BE100116089 /* Viewc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viewc.jpg; sourceTree = "<group>"; };
 		865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 17.11.02.png"; sourceTree = "<group>"; };
 		865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 17.42.53.png"; sourceTree = "<group>"; };
+		865290A91FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 19.01.00.png"; sourceTree = "<group>"; };
+		865290AB1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 19.01.58.png"; sourceTree = "<group>"; };
 		865AEFEB1FD1B86700904035 /* TableViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerThree.h; sourceTree = "<group>"; };
 		865AEFEC1FD1B86700904035 /* TableViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerThree.m; sourceTree = "<group>"; };
 		865AEFEE1FD1B88B00904035 /* ViewControllerSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSeven.h; sourceTree = "<group>"; };
@@ -225,6 +229,7 @@
 				86EC4EE81FC450AD00460EAB /* LaunchScreen.storyboard */,
 				865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */,
 				865290A31FD85BE100116089 /* Viewc.jpg */,
+				865290A91FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png */,
 				865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */,
 				86373CE81FCD8F7D00FE2457 /* images.jpeg */,
 				8630D5ED1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg */,
@@ -233,6 +238,7 @@
 				8630D5EB1FD6D9FA0070306F /* Screen Shot 2017-12-05 at 13.41.31.jpg */,
 				8630D5E91FD6D9C10070306F /* Screen Shot 2017-12-05 at 13.41.31.png */,
 				8630D5F11FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg */,
+				865290AB1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png */,
 				8630D5E31FD6D34B0070306F /* LOGO.jpg */,
 				8630D5E71FD6D62E0070306F /* LOGOO.jpg */,
 				8630D5E11FD6D0580070306F /* Find your scran.jpg */,
@@ -387,8 +393,10 @@
 				86220CEE1FD5AE210003A044 /* Both.jpg in Resources */,
 				8630D5F21FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg in Resources */,
 				8630D5E61FD6D4B70070306F /* What you feelin'?.jpg in Resources */,
+				865290AC1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png in Resources */,
 				86220CEA1FD5AD180003A044 /* Food.jpg in Resources */,
 				8630D5E41FD6D34B0070306F /* LOGO.jpg in Resources */,
+				865290AA1FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png in Resources */,
 				868C4F781FD5917A00A86A18 /* ScranPus Logo.jpg in Resources */,
 				8630D5E81FD6D62E0070306F /* LOGOO.jpg in Resources */,
 				86220CE61FD5ABB10003A044 /* Icon.jpg in Resources */,

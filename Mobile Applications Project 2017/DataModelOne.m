@@ -17,21 +17,21 @@
         
         self.productarray = [NSMutableArray array];                    //Fuse Products
         Products *hamsandwichfuse = [[Products alloc] init];
-        hamsandwichfuse.productname = @"Ham Sandwich";
+        hamsandwichfuse.productname = @"HAM SANDWICH";
         hamsandwichfuse.cafename = @"FUSE";
         hamsandwichfuse.producttype = @"Food";
         hamsandwichfuse.price = 2.30;
         
         self.productarray = [NSMutableArray array];
         Products *tunasaladfuse = [[Products alloc] init];
-        tunasaladfuse.productname = @"Tuna Salad";
+        tunasaladfuse.productname = @"TUNA SALAD";
         tunasaladfuse.cafename = @"FUSE";
         tunasaladfuse.producttype = @"Food";
         tunasaladfuse.price = 2.50;
         
         self.productarray = [NSMutableArray array];
         Products *baconsandwichfuse = [[Products alloc] init];
-        baconsandwichfuse.productname = @"Bacon Sandwich";
+        baconsandwichfuse.productname = @"BACON SANDWICH";
         baconsandwichfuse.cafename = @"FUSE";
         baconsandwichfuse.producttype = @"Food";
         baconsandwichfuse.price = 2.00;
@@ -39,21 +39,21 @@
         
         self.productarray = [NSMutableArray array];                  //The Edit Room Products
         Products *prawnmayosandwichedit = [[Products alloc] init];
-        prawnmayosandwichedit.productname = @"Prawn Mayo Sandwich";
+        prawnmayosandwichedit.productname = @"PRAWN MAYO SANDWICH";
         prawnmayosandwichedit.cafename = @"The Edit Room";
         prawnmayosandwichedit.producttype = @"Food";
         prawnmayosandwichedit.price = 3.00;
         
         self.productarray = [NSMutableArray array];
         Products *meatfeastsandwichedit = [[Products alloc] init];
-        meatfeastsandwichedit.productname = @"Meat Feast Sandwich";
+        meatfeastsandwichedit.productname = @"MEAT FEAST SANDWICH";
         meatfeastsandwichedit.cafename = @"The Edit Room";
         meatfeastsandwichedit.producttype = @"Food";
         meatfeastsandwichedit.price = 3.00;
         
         self.productarray = [NSMutableArray array];
         Products *chickensaladedit = [[Products alloc] init];
-        chickensaladedit.productname = @"Chicken Salad";
+        chickensaladedit.productname = @"CHICKEN SALAD";
         chickensaladedit.cafename = @"The Edit Room";
         chickensaladedit.producttype = @"Food";
         chickensaladedit.price = 3.50;
@@ -62,21 +62,21 @@
         
         self.productarray = [NSMutableArray array];                 //Parkinson Court Products
         Products *mushroomsoupparkinson = [[Products alloc] init];
-        mushroomsoupparkinson.productname = @"Mushroom Soup";
+        mushroomsoupparkinson.productname = @"MUSHROOM SOUP";
         mushroomsoupparkinson.cafename = @"Parkinson Court";
         mushroomsoupparkinson.producttype = @"Food";
         mushroomsoupparkinson.price = 4.00;
         
         self.productarray = [NSMutableArray array];
         Products *prawnrocketsandwichparkinson = [[Products alloc] init];
-        prawnrocketsandwichparkinson.productname = @"Prawn & Rocket Sandwich";
+        prawnrocketsandwichparkinson.productname = @"PRAWN & ROCKET SANDWICH";
         prawnrocketsandwichparkinson.cafename = @"Parkinson Court";
         prawnrocketsandwichparkinson.producttype = @"Food";
         prawnrocketsandwichparkinson.price = 4.20;
         
         self.productarray = [NSMutableArray array];
         Products *bltsandwichparkinson = [[Products alloc] init];
-        bltsandwichparkinson.productname = @"BLT Sandwich";
+        bltsandwichparkinson.productname = @"BLT SANDWICH";
         bltsandwichparkinson.cafename = @"Parkinson Court";
         bltsandwichparkinson.producttype = @"Food";
         bltsandwichparkinson.price = 3.90;
@@ -84,21 +84,21 @@
         
         self.productarray = [NSMutableArray array];                 //Baines Wing Products
         Products *tikkasoupbaines = [[Products alloc] init];
-        tikkasoupbaines.productname = @"Chicken Tikka Soup";
+        tikkasoupbaines.productname = @"CHICKEN TIKKA SOUP";
         tikkasoupbaines.cafename = @"The Baines Wing Cafe";
         tikkasoupbaines.producttype = @"Food";
         tikkasoupbaines.price = 2.30;
         
         self.productarray = [NSMutableArray array];
         Products *beefsandwichbaines = [[Products alloc] init];
-        beefsandwichbaines.productname = @"Beef Sandwich";
+        beefsandwichbaines.productname = @"BEEF SANDWICH";
         beefsandwichbaines.cafename = @"The Baines Wing Cafe";
         beefsandwichbaines.producttype = @"Food";
         beefsandwichbaines.price = 1.70;
         
         self.productarray = [NSMutableArray array];
         Products *choccakebaines = [[Products alloc] init];
-        choccakebaines.productname = @"Chocolate Cake";
+        choccakebaines.productname = @"CHOCOLATE CAKE";
         choccakebaines.cafename = @"The Baines Wing Cafe";
         choccakebaines.producttype = @"Food";
         choccakebaines.price = 0.80;
@@ -107,21 +107,21 @@
         
         self.productarray = [NSMutableArray array];                      //The Business School Products
         Products *cheesesandwichbusiness = [[Products alloc] init];
-        cheesesandwichbusiness.productname = @"Cheese Sandwich";
+        cheesesandwichbusiness.productname = @"CHEESE SANDWICH";
         cheesesandwichbusiness.cafename = @"The Business School";
         cheesesandwichbusiness.producttype = @"Food";
         cheesesandwichbusiness.price = 1.00;
         
         self.productarray = [NSMutableArray array];
         Products *potnoodlebusiness = [[Products alloc] init];
-        potnoodlebusiness.productname = @"Pot Noodle";
+        potnoodlebusiness.productname = @"POT NOODLE";
         potnoodlebusiness.cafename = @"The Business School";
         potnoodlebusiness.producttype = @"Food";
         potnoodlebusiness.price = 0.90;
         
         self.productarray = [NSMutableArray array];
         Products *gardensaladbusiness = [[Products alloc] init];
-        gardensaladbusiness.productname = @"Garden Salad";
+        gardensaladbusiness.productname = @"GARDEN SALAD";
         gardensaladbusiness.cafename = @"The Business School";
         gardensaladbusiness.producttype = @"Food";
         gardensaladbusiness.price = 0.70;

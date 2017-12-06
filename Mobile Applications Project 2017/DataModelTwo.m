@@ -18,14 +18,14 @@
        // Fuse Products
         self.productarray = [NSMutableArray array];
         Products *waterfuse = [[Products alloc] init];
-        waterfuse.productname = @"Water";
+        waterfuse.productname = @"WATER";
         waterfuse.cafename = @"FUSE";
         waterfuse.producttype = @"Drink";
         waterfuse.price = 1.00;
         
         self.productarray = [NSMutableArray array];
         Products *hotchocolatefuse = [[Products alloc] init];
-        hotchocolatefuse.productname = @"Hot Chocolate";
+        hotchocolatefuse.productname = @"HOT CHOCOLATE";
         hotchocolatefuse.cafename = @"FUSE";
         hotchocolatefuse.producttype = @"Drink";
         hotchocolatefuse.price = 1.50;
@@ -33,14 +33,14 @@
         // The Edit Room Products
         self.productarray = [NSMutableArray array];
         Products *cocacolaedit = [[Products alloc] init];
-        cocacolaedit.productname = @"Coca Cola";
+        cocacolaedit.productname = @"COCA COLA";
         cocacolaedit.cafename = @"The Edit Room";
         cocacolaedit.producttype = @"Drink";
         cocacolaedit.price = 2.20;
         
         self.productarray = [NSMutableArray array];
         Products *cafelatteedit = [[Products alloc] init];
-        cafelatteedit.productname = @"Cafe Latte";
+        cafelatteedit.productname = @"CAFE LATTE";
         cafelatteedit.cafename = @"The Edit Room";
         cafelatteedit.producttype = @"Drink";
         cafelatteedit.price = 1.80;
@@ -48,14 +48,14 @@
        //Parkinson Court Products
         self.productarray = [NSMutableArray array];
         Products *sanpellegrinoparkinson = [[Products alloc] init];
-        sanpellegrinoparkinson.productname = @"San Pellegrino";
+        sanpellegrinoparkinson.productname = @"SAN PELLEGRINO";
         sanpellegrinoparkinson.cafename = @"Parkinson Court";
         sanpellegrinoparkinson.producttype = @"Drink";
         sanpellegrinoparkinson.price = 1.00;
         
         self.productarray = [NSMutableArray array];
         Products *greenteaparkinson = [[Products alloc] init];
-        greenteaparkinson.productname = @"Green Tea";
+        greenteaparkinson.productname = @"GREEN TEA";
         greenteaparkinson.cafename = @"Parkinson Court";
         greenteaparkinson.producttype = @"Drink";
         greenteaparkinson.price = 2.50;
@@ -63,14 +63,14 @@
        //Baines Wing Products
         self.productarray = [NSMutableArray array];
         Products *lemonadebaines = [[Products alloc] init];
-        lemonadebaines.productname = @"Lemonade";
+        lemonadebaines.productname = @"LEMONADE";
         lemonadebaines.cafename = @"The Baines Wing Cafe";
         lemonadebaines.producttype = @"Drink";
         lemonadebaines.price = 1.00;
         
         self.productarray = [NSMutableArray array];
         Products *americanobaines = [[Products alloc] init];
-        americanobaines.productname = @"Americano";
+        americanobaines.productname = @"AMERICANO";
         americanobaines.cafename = @"The Baines Wing Cafe";
         americanobaines.producttype = @"Food";
         americanobaines.price = 0.80;
@@ -78,14 +78,14 @@
         //The Business School Products
         self.productarray = [NSMutableArray array];
         Products *dietcokebusiness = [[Products alloc] init];
-        dietcokebusiness.productname = @"Diet Coke";
+        dietcokebusiness.productname = @"DIET COKE";
         dietcokebusiness.cafename = @"The Business School";
         dietcokebusiness.producttype = @"Drink";
         dietcokebusiness.price = 0.50;
         
         self.productarray = [NSMutableArray array];
         Products *fantabusiness = [[Products alloc] init];
-        fantabusiness.productname = @"Fanta";
+        fantabusiness.productname = @"FANTA";
         fantabusiness.cafename = @"The Business School";
         fantabusiness.producttype = @"Drink";
         fantabusiness.price = 0.50;

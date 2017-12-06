@@ -17,7 +17,7 @@
         
         self.cafearray = [NSMutableArray array];
         Cafe *baineswingcafe = [[Cafe alloc] init];
-        baineswingcafe.cafename = @"The Baines Wing Cafe";
+        baineswingcafe.cafename = @"THE BAINES WING CAFE";
         baineswingcafe.cafelocation = @"Located in The Baines Wing Building ground floor.";
         baineswingcafe.openingtimes = @"Opening Times: MON-FRI: 8:00AM-3:00PM";
         
@@ -29,19 +29,19 @@
         
         self.cafearray = [NSMutableArray array];
         Cafe *parkinsoncourtcafe = [[Cafe alloc] init];
-        parkinsoncourtcafe.cafename = @"The Parkinson Court Cafe";
+        parkinsoncourtcafe.cafename = @"THE PARKINSON COURT CAFE";
         parkinsoncourtcafe.cafelocation = @"Located in the Parkinson Building on the ground floor.";
         parkinsoncourtcafe.openingtimes = @"Opening Times: MON-FRI: 8:30AM-4:00PM";
         
         self.cafearray = [NSMutableArray array];
         Cafe *editroom = [[Cafe alloc] init];
-        editroom.cafename = @"The Edit Room";
+        editroom.cafename = @"THE EDIT ROOM";
         editroom.cafelocation = @"Located in The Edward Boyle Library ground floor.";
         editroom.openingtimes = @"Opening Times: MON-FRI: 8:00AM-6:00PM";
         
         self.cafearray = [NSMutableArray array];
         Cafe *businessschool = [[Cafe alloc] init];
-        businessschool.cafename = @"The Business School Cafe";
+        businessschool.cafename = @"THE BUSINESS SCHOOL CAFE";
         businessschool.cafelocation = @"Located in the Business School, on the Western Campus, on the ground floor.";
         businessschool.openingtimes = @"Opening Times: MON-FRI: 8:00AM-5:00PM";
         
