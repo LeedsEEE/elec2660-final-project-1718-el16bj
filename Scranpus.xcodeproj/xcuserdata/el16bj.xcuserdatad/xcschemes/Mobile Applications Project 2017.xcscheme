@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "86EC4ED61FC450AD00460EAB"
-               BuildableName = "Mobile Applications Project 2017.app"
-               BlueprintName = "Mobile Applications Project 2017"
-               ReferencedContainer = "container:Mobile Applications Project 2017.xcodeproj">
+               BuildableName = "Scranpus.app"
+               BlueprintName = "Scranpus"
+               ReferencedContainer = "container:Scranpus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "86EC4EEF1FC450AD00460EAB"
-               BuildableName = "Mobile Applications Project 2017Tests.xctest"
-               BlueprintName = "Mobile Applications Project 2017Tests"
-               ReferencedContainer = "container:Mobile Applications Project 2017.xcodeproj">
+               BuildableName = "ScranpusTests.xctest"
+               BlueprintName = "ScranpusTests"
+               ReferencedContainer = "container:Scranpus.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "86EC4EFA1FC450AD00460EAB"
-               BuildableName = "Mobile Applications Project 2017UITests.xctest"
-               BlueprintName = "Mobile Applications Project 2017UITests"
-               ReferencedContainer = "container:Mobile Applications Project 2017.xcodeproj">
+               BuildableName = "ScranpusUITests.xctest"
+               BlueprintName = "ScranpusUITests"
+               ReferencedContainer = "container:Scranpus.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86EC4ED61FC450AD00460EAB"
-            BuildableName = "Mobile Applications Project 2017.app"
-            BlueprintName = "Mobile Applications Project 2017"
-            ReferencedContainer = "container:Mobile Applications Project 2017.xcodeproj">
+            BuildableName = "Scranpus.app"
+            BlueprintName = "Scranpus"
+            ReferencedContainer = "container:Scranpus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86EC4ED61FC450AD00460EAB"
-            BuildableName = "Mobile Applications Project 2017.app"
-            BlueprintName = "Mobile Applications Project 2017"
-            ReferencedContainer = "container:Mobile Applications Project 2017.xcodeproj">
+            BuildableName = "Scranpus.app"
+            BlueprintName = "Scranpus"
+            ReferencedContainer = "container:Scranpus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86EC4ED61FC450AD00460EAB"
-            BuildableName = "Mobile Applications Project 2017.app"
-            BlueprintName = "Mobile Applications Project 2017"
-            ReferencedContainer = "container:Mobile Applications Project 2017.xcodeproj">
+            BuildableName = "Scranpus.app"
+            BlueprintName = "Scranpus"
+            ReferencedContainer = "container:Scranpus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -130,7 +130,7 @@
 		86D2FFCF1FD195880093142F /* DataModelOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModelOne.m; sourceTree = "<group>"; };
 		86D2FFD11FD195B10093142F /* DataModelTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModelTwo.h; sourceTree = "<group>"; };
 		86D2FFD21FD195B10093142F /* DataModelTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModelTwo.m; sourceTree = "<group>"; };
-		86EC4ED71FC450AD00460EAB /* Mobile Applications Project 2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile Applications Project 2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EC4ED71FC450AD00460EAB /* Scranpus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scranpus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EC4EDB1FC450AD00460EAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86EC4EDD1FC450AD00460EAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86EC4EDE1FC450AD00460EAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -140,10 +140,10 @@
 		86EC4EE61FC450AD00460EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86EC4EE91FC450AD00460EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86EC4EEB1FC450AD00460EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86EC4EF01FC450AD00460EAB /* Mobile Applications Project 2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Applications Project 2017Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EC4EF01FC450AD00460EAB /* ScranpusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScranpusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EC4EF41FC450AD00460EAB /* Mobile_Applications_Project_2017Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Applications_Project_2017Tests.m; sourceTree = "<group>"; };
 		86EC4EF61FC450AD00460EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86EC4EFB1FC450AD00460EAB /* Mobile Applications Project 2017UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile Applications Project 2017UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86EC4EFB1FC450AD00460EAB /* ScranpusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScranpusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86EC4EFF1FC450AD00460EAB /* Mobile_Applications_Project_2017UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mobile_Applications_Project_2017UITests.m; sourceTree = "<group>"; };
 		86EC4F011FC450AD00460EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -186,9 +186,9 @@
 		86EC4ED81FC450AD00460EAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86EC4ED71FC450AD00460EAB /* Mobile Applications Project 2017.app */,
-				86EC4EF01FC450AD00460EAB /* Mobile Applications Project 2017Tests.xctest */,
-				86EC4EFB1FC450AD00460EAB /* Mobile Applications Project 2017UITests.xctest */,
+				86EC4ED71FC450AD00460EAB /* Scranpus.app */,
+				86EC4EF01FC450AD00460EAB /* ScranpusTests.xctest */,
+				86EC4EFB1FC450AD00460EAB /* ScranpusUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,9 +293,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86EC4ED61FC450AD00460EAB /* Mobile Applications Project 2017 */ = {
+		86EC4ED61FC450AD00460EAB /* Scranpus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86EC4F041FC450AD00460EAB /* Build configuration list for PBXNativeTarget "Mobile Applications Project 2017" */;
+			buildConfigurationList = 86EC4F041FC450AD00460EAB /* Build configuration list for PBXNativeTarget "Scranpus" */;
 			buildPhases = (
 				86EC4ED31FC450AD00460EAB /* Sources */,
 				86EC4ED41FC450AD00460EAB /* Frameworks */,
@@ -305,14 +305,14 @@
 			);
 			dependencies = (
 			);
-			name = "Mobile Applications Project 2017";
+			name = Scranpus;
 			productName = "Mobile Applications Project 2017";
-			productReference = 86EC4ED71FC450AD00460EAB /* Mobile Applications Project 2017.app */;
+			productReference = 86EC4ED71FC450AD00460EAB /* Scranpus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		86EC4EEF1FC450AD00460EAB /* Mobile Applications Project 2017Tests */ = {
+		86EC4EEF1FC450AD00460EAB /* ScranpusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86EC4F071FC450AD00460EAB /* Build configuration list for PBXNativeTarget "Mobile Applications Project 2017Tests" */;
+			buildConfigurationList = 86EC4F071FC450AD00460EAB /* Build configuration list for PBXNativeTarget "ScranpusTests" */;
 			buildPhases = (
 				86EC4EEC1FC450AD00460EAB /* Sources */,
 				86EC4EED1FC450AD00460EAB /* Frameworks */,
@@ -323,14 +323,14 @@
 			dependencies = (
 				86EC4EF21FC450AD00460EAB /* PBXTargetDependency */,
 			);
-			name = "Mobile Applications Project 2017Tests";
+			name = ScranpusTests;
 			productName = "Mobile Applications Project 2017Tests";
-			productReference = 86EC4EF01FC450AD00460EAB /* Mobile Applications Project 2017Tests.xctest */;
+			productReference = 86EC4EF01FC450AD00460EAB /* ScranpusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		86EC4EFA1FC450AD00460EAB /* Mobile Applications Project 2017UITests */ = {
+		86EC4EFA1FC450AD00460EAB /* ScranpusUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86EC4F0A1FC450AD00460EAB /* Build configuration list for PBXNativeTarget "Mobile Applications Project 2017UITests" */;
+			buildConfigurationList = 86EC4F0A1FC450AD00460EAB /* Build configuration list for PBXNativeTarget "ScranpusUITests" */;
 			buildPhases = (
 				86EC4EF71FC450AD00460EAB /* Sources */,
 				86EC4EF81FC450AD00460EAB /* Frameworks */,
@@ -341,9 +341,9 @@
 			dependencies = (
 				86EC4EFD1FC450AD00460EAB /* PBXTargetDependency */,
 			);
-			name = "Mobile Applications Project 2017UITests";
+			name = ScranpusUITests;
 			productName = "Mobile Applications Project 2017UITests";
-			productReference = 86EC4EFB1FC450AD00460EAB /* Mobile Applications Project 2017UITests.xctest */;
+			productReference = 86EC4EFB1FC450AD00460EAB /* ScranpusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -371,7 +371,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86EC4ED21FC450AD00460EAB /* Build configuration list for PBXProject "Mobile Applications Project 2017" */;
+			buildConfigurationList = 86EC4ED21FC450AD00460EAB /* Build configuration list for PBXProject "Scranpus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -384,9 +384,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86EC4ED61FC450AD00460EAB /* Mobile Applications Project 2017 */,
-				86EC4EEF1FC450AD00460EAB /* Mobile Applications Project 2017Tests */,
-				86EC4EFA1FC450AD00460EAB /* Mobile Applications Project 2017UITests */,
+				86EC4ED61FC450AD00460EAB /* Scranpus */,
+				86EC4EEF1FC450AD00460EAB /* ScranpusTests */,
+				86EC4EFA1FC450AD00460EAB /* ScranpusUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -490,12 +490,12 @@
 /* Begin PBXTargetDependency section */
 		86EC4EF21FC450AD00460EAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 86EC4ED61FC450AD00460EAB /* Mobile Applications Project 2017 */;
+			target = 86EC4ED61FC450AD00460EAB /* Scranpus */;
 			targetProxy = 86EC4EF11FC450AD00460EAB /* PBXContainerItemProxy */;
 		};
 		86EC4EFD1FC450AD00460EAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 86EC4ED61FC450AD00460EAB /* Mobile Applications Project 2017 */;
+			target = 86EC4ED61FC450AD00460EAB /* Scranpus */;
 			targetProxy = 86EC4EFC1FC450AD00460EAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -640,7 +640,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Mobile-Applications-Project-2017Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Applications Project 2017.app/Mobile Applications Project 2017";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scranpus.app/Scranpus";
 			};
 			name = Debug;
 		};
@@ -652,7 +652,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.Mobile-Applications-Project-2017Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile Applications Project 2017.app/Mobile Applications Project 2017";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scranpus.app/Scranpus";
 			};
 			name = Release;
 		};
@@ -681,7 +681,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86EC4ED21FC450AD00460EAB /* Build configuration list for PBXProject "Mobile Applications Project 2017" */ = {
+		86EC4ED21FC450AD00460EAB /* Build configuration list for PBXProject "Scranpus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86EC4F021FC450AD00460EAB /* Debug */,
@@ -690,7 +690,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86EC4F041FC450AD00460EAB /* Build configuration list for PBXNativeTarget "Mobile Applications Project 2017" */ = {
+		86EC4F041FC450AD00460EAB /* Build configuration list for PBXNativeTarget "Scranpus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86EC4F051FC450AD00460EAB /* Debug */,
@@ -699,7 +699,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86EC4F071FC450AD00460EAB /* Build configuration list for PBXNativeTarget "Mobile Applications Project 2017Tests" */ = {
+		86EC4F071FC450AD00460EAB /* Build configuration list for PBXNativeTarget "ScranpusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86EC4F081FC450AD00460EAB /* Debug */,
@@ -708,7 +708,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86EC4F0A1FC450AD00460EAB /* Build configuration list for PBXNativeTarget "Mobile Applications Project 2017UITests" */ = {
+		86EC4F0A1FC450AD00460EAB /* Build configuration list for PBXNativeTarget "ScranpusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86EC4F0B1FC450AD00460EAB /* Debug */,
