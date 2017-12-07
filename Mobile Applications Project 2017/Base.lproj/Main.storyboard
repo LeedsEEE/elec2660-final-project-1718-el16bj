@@ -189,23 +189,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00B-Gn-ZqF">
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyg-yL-Vjy">
                                 <connections>
                                     <action selector="food:" destination="IGn-EL-aDm" eventType="touchUpInside" id="dnb-Qn-kvq"/>
                                     <segue destination="2K8-hA-Gp9" kind="show" id="veL-O4-Ruz"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jL-xO-1Hk">
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8J6-rY-U12">
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="00B-Gn-ZqF">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jL-xO-1Hk">
                                 <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -215,7 +215,7 @@
                         <constraints>
                             <constraint firstItem="xZ9-CV-mdm" firstAttribute="top" secondItem="Lyg-yL-Vjy" secondAttribute="bottom" constant="86" id="3fe-Cm-vZZ"/>
                             <constraint firstItem="00B-Gn-ZqF" firstAttribute="leading" secondItem="Cac-8O-biL" secondAttribute="leadingMargin" constant="68" id="6Sx-Br-ypd"/>
-                            <constraint firstItem="xZ9-CV-mdm" firstAttribute="top" secondItem="8jL-xO-1Hk" secondAttribute="bottom" constant="274" id="A9l-A6-SAr"/>
+                            <constraint firstItem="xZ9-CV-mdm" firstAttribute="top" secondItem="8jL-xO-1Hk" secondAttribute="bottom" constant="262" id="A9l-A6-SAr"/>
                             <constraint firstItem="Lyg-yL-Vjy" firstAttribute="leading" secondItem="Cac-8O-biL" secondAttribute="leadingMargin" constant="84" id="Aeo-kw-q8g"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KSP-c4-p9P" secondAttribute="trailing" constant="84" id="FRx-r7-S2i"/>
                             <constraint firstItem="8jL-xO-1Hk" firstAttribute="leading" secondItem="Cac-8O-biL" secondAttribute="leadingMargin" constant="68" id="KkI-NA-j61"/>
@@ -232,7 +232,7 @@
                             <constraint firstItem="xZ9-CV-mdm" firstAttribute="top" secondItem="KSP-c4-p9P" secondAttribute="bottom" constant="343" id="vNy-Yx-Hri"/>
                             <constraint firstItem="xZ9-CV-mdm" firstAttribute="top" secondItem="00B-Gn-ZqF" secondAttribute="bottom" constant="303" id="z9F-cO-3Mk"/>
                             <constraint firstItem="KSP-c4-p9P" firstAttribute="top" secondItem="NwU-DV-3Lg" secondAttribute="bottom" constant="214" id="zCJ-Wr-9Xp"/>
-                            <constraint firstItem="8jL-xO-1Hk" firstAttribute="top" secondItem="NwU-DV-3Lg" secondAttribute="bottom" constant="308" id="zeh-9N-3mN"/>
+                            <constraint firstItem="8jL-xO-1Hk" firstAttribute="top" secondItem="NwU-DV-3Lg" secondAttribute="bottom" constant="320" id="zeh-9N-3mN"/>
                         </constraints>
                     </view>
                     <connections>

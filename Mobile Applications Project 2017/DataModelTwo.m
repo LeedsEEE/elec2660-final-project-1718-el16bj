@@ -72,7 +72,7 @@
         Products *americanobaines = [[Products alloc] init];
         americanobaines.productname = @"AMERICANO";
         americanobaines.cafename = @"The Baines Wing Cafe";
-        americanobaines.producttype = @"Food";
+        americanobaines.producttype = @"Drink";
         americanobaines.price = 0.80;
         
         //The Business School Products
