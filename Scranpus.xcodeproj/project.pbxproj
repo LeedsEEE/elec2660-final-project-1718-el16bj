@@ -22,13 +22,19 @@
 		8630D5EE1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5ED1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg */; };
 		8630D5F01FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5EF1FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg */; };
 		8630D5F21FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8630D5F11FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg */; };
+		863245E41FD9AD76004A8100 /* Screen Shot 2017-12-07 at 17.09.41.png in Resources */ = {isa = PBXBuildFile; fileRef = 863245E31FD9AD76004A8100 /* Screen Shot 2017-12-07 at 17.09.41.png */; };
+		863245E61FD9B64B004A8100 /* fork.png in Resources */ = {isa = PBXBuildFile; fileRef = 863245E51FD9B64B004A8100 /* fork.png */; };
+		863245E81FD9B650004A8100 /* knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 863245E71FD9B650004A8100 /* knife.png */; };
+		863245EA1FD9B6C8004A8100 /* knife folk spoon.png in Resources */ = {isa = PBXBuildFile; fileRef = 863245E91FD9B6C8004A8100 /* knife folk spoon.png */; };
+		863245EC1FD9B7AC004A8100 /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 863245EB1FD9B7AC004A8100 /* cup.png */; };
+		863245EE1FD9B96D004A8100 /* location pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 863245ED1FD9B96D004A8100 /* location pin.png */; };
 		86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 86373CE81FCD8F7D00FE2457 /* images.jpeg */; };
 		86373CF51FCD9CA500FE2457 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86373CF41FCD9CA500FE2457 /* thirdViewController.m */; };
 		865290A41FD85BE200116089 /* Viewc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 865290A31FD85BE100116089 /* Viewc.jpg */; };
 		865290A61FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */; };
 		865290A81FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */; };
-		865290AA1FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A91FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png */; };
-		865290AC1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290AB1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png */; };
+		865290AA1FD8760900116089 /* BAAANG.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290A91FD8760900116089 /* BAAANG.png */; };
+		865290AC1FD8763400116089 /* SCRANPUS.png in Resources */ = {isa = PBXBuildFile; fileRef = 865290AB1FD8763400116089 /* SCRANPUS.png */; };
 		865AEFED1FD1B86700904035 /* TableViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFEC1FD1B86700904035 /* TableViewControllerThree.m */; };
 		865AEFF01FD1B88B00904035 /* ViewControllerSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFEF1FD1B88B00904035 /* ViewControllerSeven.m */; };
 		865AEFF61FD1B92C00904035 /* DataModelThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 865AEFF51FD1B92C00904035 /* DataModelThree.m */; };
@@ -90,14 +96,20 @@
 		8630D5ED1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen Shot 2017-12-05 at 13.45.52.jpg"; sourceTree = "<group>"; };
 		8630D5EF1FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen Shot 2017-12-05 at 13.45.40.jpg"; sourceTree = "<group>"; };
 		8630D5F11FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Screen Shot 2017-12-05 at 13.52.45.jpg"; sourceTree = "<group>"; };
+		863245E31FD9AD76004A8100 /* Screen Shot 2017-12-07 at 17.09.41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-07 at 17.09.41.png"; sourceTree = "<group>"; };
+		863245E51FD9B64B004A8100 /* fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fork.png; sourceTree = "<group>"; };
+		863245E71FD9B650004A8100 /* knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knife.png; sourceTree = "<group>"; };
+		863245E91FD9B6C8004A8100 /* knife folk spoon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knife folk spoon.png"; sourceTree = "<group>"; };
+		863245EB1FD9B7AC004A8100 /* cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup.png; sourceTree = "<group>"; };
+		863245ED1FD9B96D004A8100 /* location pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location pin.png"; sourceTree = "<group>"; };
 		86373CE81FCD8F7D00FE2457 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		86373CF31FCD9CA500FE2457 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thirdViewController.h; path = ../thirdViewController.h; sourceTree = "<group>"; };
 		86373CF41FCD9CA500FE2457 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = thirdViewController.m; path = ../thirdViewController.m; sourceTree = "<group>"; };
 		865290A31FD85BE100116089 /* Viewc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Viewc.jpg; sourceTree = "<group>"; };
 		865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 17.11.02.png"; sourceTree = "<group>"; };
 		865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 17.42.53.png"; sourceTree = "<group>"; };
-		865290A91FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 19.01.00.png"; sourceTree = "<group>"; };
-		865290AB1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-12-06 at 19.01.58.png"; sourceTree = "<group>"; };
+		865290A91FD8760900116089 /* BAAANG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BAAANG.png; sourceTree = "<group>"; };
+		865290AB1FD8763400116089 /* SCRANPUS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SCRANPUS.png; sourceTree = "<group>"; };
 		865AEFEB1FD1B86700904035 /* TableViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerThree.h; sourceTree = "<group>"; };
 		865AEFEC1FD1B86700904035 /* TableViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerThree.m; sourceTree = "<group>"; };
 		865AEFEE1FD1B88B00904035 /* ViewControllerSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSeven.h; sourceTree = "<group>"; };
@@ -233,9 +245,12 @@
 				865AEFF51FD1B92C00904035 /* DataModelThree.m */,
 				86EC4EE61FC450AD00460EAB /* Assets.xcassets */,
 				86EC4EE81FC450AD00460EAB /* LaunchScreen.storyboard */,
+				863245E31FD9AD76004A8100 /* Screen Shot 2017-12-07 at 17.09.41.png */,
+				863245ED1FD9B96D004A8100 /* location pin.png */,
 				865290A71FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png */,
+				863245EB1FD9B7AC004A8100 /* cup.png */,
 				865290A31FD85BE100116089 /* Viewc.jpg */,
-				865290A91FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png */,
+				865290A91FD8760900116089 /* BAAANG.png */,
 				865290A51FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png */,
 				86373CE81FCD8F7D00FE2457 /* images.jpeg */,
 				8630D5ED1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg */,
@@ -244,7 +259,7 @@
 				8630D5EB1FD6D9FA0070306F /* Screen Shot 2017-12-05 at 13.41.31.jpg */,
 				8630D5E91FD6D9C10070306F /* Screen Shot 2017-12-05 at 13.41.31.png */,
 				8630D5F11FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg */,
-				865290AB1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png */,
+				865290AB1FD8763400116089 /* SCRANPUS.png */,
 				8630D5E31FD6D34B0070306F /* LOGO.jpg */,
 				8630D5E71FD6D62E0070306F /* LOGOO.jpg */,
 				8630D5E11FD6D0580070306F /* Find your scran.jpg */,
@@ -253,8 +268,11 @@
 				8698B3691FD9593F00F0008D /* Screen Shot 2017-12-07 at 11.10.29.png */,
 				8698B36D1FD9594700F0008D /* Screen Shot 2017-12-07 at 11.09.51.png */,
 				86220CED1FD5AE210003A044 /* Both.jpg */,
+				863245E71FD9B650004A8100 /* knife.png */,
 				86220CEF1FD5AE7D0003A044 /* Drink.jpg */,
 				8630D5DF1FD6CBBD0070306F /* Base.jpg */,
+				863245E91FD9B6C8004A8100 /* knife folk spoon.png */,
+				863245E51FD9B64B004A8100 /* fork.png */,
 				8630D5DD1FD6CBB90070306F /* ROOF.jpg */,
 				86220CE51FD5ABB10003A044 /* Icon.jpg */,
 				868C4F771FD5917A00A86A18 /* ScranPus Logo.jpg */,
@@ -398,26 +416,32 @@
 			files = (
 				8698B36C1FD9594400F0008D /* Screen Shot 2017-12-07 at 11.10.08.png in Resources */,
 				8630D5EC1FD6D9FA0070306F /* Screen Shot 2017-12-05 at 13.41.31.jpg in Resources */,
+				863245E81FD9B650004A8100 /* knife.png in Resources */,
 				86EC4EEA1FC450AD00460EAB /* LaunchScreen.storyboard in Resources */,
 				8630D5EA1FD6D9C10070306F /* Screen Shot 2017-12-05 at 13.41.31.png in Resources */,
 				86220CEE1FD5AE210003A044 /* Both.jpg in Resources */,
 				8630D5F21FD6DC540070306F /* Screen Shot 2017-12-05 at 13.52.45.jpg in Resources */,
 				8630D5E61FD6D4B70070306F /* What you feelin'?.jpg in Resources */,
-				865290AC1FD8763400116089 /* Screen Shot 2017-12-06 at 19.01.58.png in Resources */,
+				863245EE1FD9B96D004A8100 /* location pin.png in Resources */,
+				865290AC1FD8763400116089 /* SCRANPUS.png in Resources */,
 				86220CEA1FD5AD180003A044 /* Food.jpg in Resources */,
 				8630D5E41FD6D34B0070306F /* LOGO.jpg in Resources */,
-				865290AA1FD8760900116089 /* Screen Shot 2017-12-06 at 19.01.00.png in Resources */,
+				865290AA1FD8760900116089 /* BAAANG.png in Resources */,
 				868C4F781FD5917A00A86A18 /* ScranPus Logo.jpg in Resources */,
 				8630D5E81FD6D62E0070306F /* LOGOO.jpg in Resources */,
+				863245E41FD9AD76004A8100 /* Screen Shot 2017-12-07 at 17.09.41.png in Resources */,
 				86220CE61FD5ABB10003A044 /* Icon.jpg in Resources */,
 				865290A41FD85BE200116089 /* Viewc.jpg in Resources */,
 				8630D5E21FD6D0580070306F /* Find your scran.jpg in Resources */,
 				86220CF01FD5AE7D0003A044 /* Drink.jpg in Resources */,
+				863245EA1FD9B6C8004A8100 /* knife folk spoon.png in Resources */,
 				86373CE91FCD8F7D00FE2457 /* images.jpeg in Resources */,
 				865290A61FD85C3B00116089 /* Screen Shot 2017-12-06 at 17.11.02.png in Resources */,
+				863245EC1FD9B7AC004A8100 /* cup.png in Resources */,
 				8698B36E1FD9594700F0008D /* Screen Shot 2017-12-07 at 11.09.51.png in Resources */,
 				8698B36A1FD9594000F0008D /* Screen Shot 2017-12-07 at 11.10.29.png in Resources */,
 				8630D5F01FD6DAE10070306F /* Screen Shot 2017-12-05 at 13.45.40.jpg in Resources */,
+				863245E61FD9B64B004A8100 /* fork.png in Resources */,
 				8630D5DE1FD6CBB90070306F /* ROOF.jpg in Resources */,
 				865290A81FD863F600116089 /* Screen Shot 2017-12-06 at 17.42.53.png in Resources */,
 				8630D5EE1FD6DADC0070306F /* Screen Shot 2017-12-05 at 13.45.52.jpg in Resources */,
