@@ -18,15 +18,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.productnamelabel.text = self.products.productname;
+    self.productnamelabel.text = self.products.productname;             //Labels will now display relevant information
     self.cafenamelabel.text = self.products.cafename;
     self.productypelabel.text = self.products.producttype;
     self.pricelabel.text = [NSString stringWithFormat:@"£%.2f", self.products.price];
-    
-    
-    
-    
-
     
 }
 

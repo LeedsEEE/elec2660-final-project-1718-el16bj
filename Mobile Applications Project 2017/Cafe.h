@@ -12,7 +12,6 @@
 
 @property (nonatomic, strong) NSString *cafename;
 @property (nonatomic, strong) NSString *cafelocation;
-
 @property (nonatomic, strong) NSString *openingtimes;
 
 @end

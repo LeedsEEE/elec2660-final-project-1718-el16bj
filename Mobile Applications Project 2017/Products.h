@@ -10,7 +10,7 @@
 
 @interface Products : NSObject
 
-@property (nonatomic, strong) NSString *productname;
+@property (nonatomic, strong) NSString *productname;                       
 @property (nonatomic, strong) NSString *cafename;
 @property (nonatomic, strong) NSString *producttype;
 

@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.cafenamelabel.text = self.cafe.cafename;
+    self.cafenamelabel.text = self.cafe.cafename;  //Labels will now display relevant information
     self.cafelocationlabel.text = self.cafe.cafelocation;
     self.openingtimeslabel.text = self.cafe.openingtimes;
 

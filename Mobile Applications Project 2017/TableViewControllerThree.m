@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.data = [[DataModelThree alloc] init];
+    self.data = [[DataModelThree alloc] init]; //Getting data from my DataModel
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -42,7 +42,7 @@
     NSInteger numberOfRows;
     
     if (section ==00 ) {
-        numberOfRows = self.data.cafearray.count;
+        numberOfRows = self.data.cafearray.count; //The number of rows in the tableview will equal the number of objects in my array
     }
     
     return numberOfRows;
@@ -59,7 +59,7 @@
         Cafe *tempCafe = [self.data.cafearray objectAtIndex:indexPath.row];
         
         cell.textLabel.text = tempCafe.cafename;
-        cell.detailTextLabel.text = tempCafe.cafelocation;
+        cell.detailTextLabel.text = tempCafe.cafelocation;  //Displaying the product name to the user, with a subtitle of the cafe name
     
     }
     
@@ -113,15 +113,15 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
     
-    if ([[segue identifier] isEqualToString:@"ShowCafeDetails"]) {
+    if ([[segue identifier] isEqualToString:@"ShowCafeDetails"]) { //Identifying seque
         
-        ViewControllerSeven *destinationViewController = [segue destinationViewController];
+        ViewControllerSeven *destinationViewController = [segue destinationViewController]; //Choosing seque destination ie. new view controlller
         
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         
         if (indexPath.section ==0) {
             
-            Cafe *tempCafe = [self.data.cafearray objectAtIndex:indexPath.row];
+            Cafe *tempCafe = [self.data.cafearray objectAtIndex:indexPath.row];  //Pushing objects from array to the new viewcontroller from tableview
             destinationViewController.cafe = tempCafe;
             
         }

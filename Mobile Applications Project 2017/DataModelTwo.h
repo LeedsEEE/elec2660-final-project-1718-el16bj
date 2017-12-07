@@ -11,7 +11,7 @@
 
 @interface DataModelTwo : NSObject
 
-@property (strong, nonatomic) NSMutableArray *productarray;
+@property (strong, nonatomic) NSMutableArray *productarray;  //Creating array which will contain all products
 
 
 @end

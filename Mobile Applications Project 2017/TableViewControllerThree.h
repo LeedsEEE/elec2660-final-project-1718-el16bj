@@ -13,6 +13,6 @@
 
 @interface TableViewControllerThree : UITableViewController
 
-@property (strong, nonatomic) DataModelThree *data;
+@property (strong, nonatomic) DataModelThree *data; //Using *data as a property to get infromation from the DataModel
 
 @end

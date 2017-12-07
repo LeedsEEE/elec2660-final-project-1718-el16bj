@@ -12,6 +12,6 @@
 
 @interface TableViewControllerOne : UITableViewController
 
-@property (strong, nonatomic) DataModelOne *data;
+@property (strong, nonatomic) DataModelOne *data; //Using *data as a property to get infromation from the DataModel
 
 @end

@@ -18,13 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.data = [[DataModel alloc] init];
+    self.data = [[DataModel alloc] init];    //Getting data from my DataModel
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //self.navigationItem.rightBarButtonItem = self.b;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,7 +44,7 @@
     NSInteger numberOfRows;
     
     if (section ==00 ) {
-        numberOfRows = self.data.productarray.count;
+        numberOfRows = self.data.productarray.count;            //The number of rows in the tableview will equal the number of objects in my array
     }
     
     return numberOfRows;
@@ -61,7 +61,7 @@
         
         Products *tempProducts = [self.data.productarray objectAtIndex:indexPath.row];
         
-        cell.textLabel.text = tempProducts.productname;
+        cell.textLabel.text = tempProducts.productname;                  //Displaying the product name to the user, with a subtitle of the cafe name
         cell.detailTextLabel.text = tempProducts.cafename;
         
         
@@ -114,15 +114,15 @@
     // Pass the selected object to the new view controller.
     
  
-    if ([[segue identifier] isEqualToString:@"ShowProductDetails"]) {
+    if ([[segue identifier] isEqualToString:@"ShowProductDetails"]) {   //Identifying seque
         
-        fourthviewcontroller *destinationViewController = [segue destinationViewController];
+        fourthviewcontroller *destinationViewController = [segue destinationViewController];  //Choosing seque destination ie. new view controlller
         
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         
         if (indexPath.section ==0) {
             
-            Products *tempProduct = [self.data.productarray objectAtIndex:indexPath.row];
+            Products *tempProduct = [self.data.productarray objectAtIndex:indexPath.row];    //Pushing objects from array to the new viewcontroller from tableview
             destinationViewController.products = tempProduct;
         
         }

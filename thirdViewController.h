@@ -10,8 +10,8 @@
 
 @interface thirdViewController : UIViewController
 
-- (IBAction)food:(UIButton *)sender;
-- (IBAction)drink:(UIButton *)sender;
-- (IBAction)both:(UIButton *)sender;
+- (IBAction)food:(UIButton *)sender;      //Button allows users to specify they want food
+- (IBAction)drink:(UIButton *)sender;     //Button allows users to specify they want drink
+- (IBAction)both:(UIButton *)sender;      //Button allows users to specify they want both
 
 @end

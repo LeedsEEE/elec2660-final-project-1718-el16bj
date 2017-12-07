@@ -12,6 +12,6 @@
 
 @interface DataModelThree : NSObject
 
-@property (strong, nonatomic) NSMutableArray *cafearray;
+@property (strong, nonatomic) NSMutableArray *cafearray;  //Creating array which will contain all products
 
 @end

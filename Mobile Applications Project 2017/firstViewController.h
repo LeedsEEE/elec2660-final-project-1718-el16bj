@@ -10,11 +10,5 @@
 
 @interface firstViewController : UIViewController
 
-
-
-
-
-
-
 @end
 
